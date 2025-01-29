@@ -24,6 +24,10 @@ public class mammal {
         color = "green";
     }
     // methods 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public void run(String name) {
         
     }
