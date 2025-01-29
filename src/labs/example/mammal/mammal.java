@@ -23,7 +23,7 @@ public class mammal {
     }
     // methods 
     public void setName(String name) {
-        this.name = name;
+        this.name = name; 
     }
 
     public void run(String name) {
@@ -31,7 +31,7 @@ public class mammal {
     }
 
     public void eat() {
-
+        System.out.println(this.name + "is eating");
     }
 
     public void sleep() {
