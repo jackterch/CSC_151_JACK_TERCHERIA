@@ -19,6 +19,9 @@ public class mammal {
         hairColor = "brown";
         eyeColor = "blue";
         bodyTemp = "98.6 F";
+        weight = "150 lbs";
+        length = "72 inches";
+        color = "green";
     }
     // methods 
     public void run(String name) {
