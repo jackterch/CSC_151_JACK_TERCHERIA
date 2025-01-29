@@ -1,7 +1,5 @@
 package src.labs.example.mammal;
 
-import java.io.Console;
-
 public class mammal {
 
     // properties
