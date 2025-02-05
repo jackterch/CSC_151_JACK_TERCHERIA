@@ -1,8 +1,7 @@
-package src.labs.example.mammal;
+package labs.example.mammal;
 
-public class mammal {
-
-    // properties
+public class Mammal {
+        // properties
     protected String name;
     protected String hairColor;
     protected String eyeColor;
@@ -12,7 +11,7 @@ public class mammal {
     protected String color;
 
     // constructor 
-    public void mammnal(String name) {
+    public void Mammnal(String name) {
         name = "jack";
         hairColor = "brown";
         eyeColor = "blue";
@@ -31,7 +30,7 @@ public class mammal {
     }
 
     public void eat() {
-        System.out.println(this.name + "is eating");
+        System.out.println("The" + this.name + "is eating");
     }
 
     public void sleep() {
