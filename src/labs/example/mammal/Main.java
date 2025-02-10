@@ -1,4 +1,4 @@
-package labs.example.mammal;
+package src.labs.example.mammal;
 
 public class Main {
     public static void main(String[] args) {

@@ -45,10 +45,6 @@ public class Mammal {
         
     }
 
-    public void scratch() {
-
-    }
-
     public void walk() {
 
     }

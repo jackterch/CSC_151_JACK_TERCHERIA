@@ -9,10 +9,7 @@ public class Main {
         mammal.setName("bear");
         mammal.sit();
         mammal.standUp();
-        dog.GetMammalDetails("dog", "brown", "brown", "100 F", "20 Lbs", "2 feet", "brown");
-        dog.setName("cactus");
         dog.Bark();
         dog.Fetch();
-        dog.layDown();
     }
 }
