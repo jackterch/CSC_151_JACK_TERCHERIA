@@ -11,7 +11,7 @@ public class Main {
 
         whileLoop.executeWhileLoop();
         forLoop.executeForLoop();
-        forLoop.sumTwoNumbers(10);
+        forLoop.sumTwoNumbers(10, 10);
         forLoop.sumLoopCounter(10);
         forLoop.printMultiplicationTable();
     }

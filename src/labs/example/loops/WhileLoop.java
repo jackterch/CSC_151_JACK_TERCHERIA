@@ -14,6 +14,6 @@ public class WhileLoop {
         }
 
         System.out.println(number + " iterations");
-        System.out.println("That's all!");
+        System.out.println("That is all");
     }
 }
