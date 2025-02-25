@@ -37,7 +37,7 @@ public class ForLoop {
 
         for (number = 0; number <= maximum; number++) 
         {
-            System.out.println("The integer is " + maximum + " will execute til 10");
+            System.out.println("The integer is " + number + " will execute til 10");
         }
 
         System.out.println("That is all");
