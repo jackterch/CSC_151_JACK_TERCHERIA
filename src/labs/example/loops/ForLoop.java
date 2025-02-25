@@ -1,3 +1,8 @@
+// 
+//  name: jack tercheria
+//  date: 2/24/2025
+//  description: ForLoop.java
+//
 public class ForLoop {
 
     public static void executeForLoop() {

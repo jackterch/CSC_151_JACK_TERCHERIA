@@ -1,3 +1,8 @@
+// 
+//  name: jack tercheria
+//  date: 2/24/2025
+//  description: main.java
+//
 public class Main {
     public static void main(String[] args) {
 
