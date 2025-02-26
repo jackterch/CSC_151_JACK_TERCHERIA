@@ -5,7 +5,7 @@
 //
 public class ForLoop {
 
-    public static void executeForLoop() {
+    private static void executeForLoop() {
         int number;
 
         for (number = 1; number <= 20; number++) 
@@ -14,9 +14,14 @@ public class ForLoop {
         }
 
         System.out.println("That is all");
+
     }
 
-    public static void sumTwoNumbers(int valueOne, int valueTwo) {
+    public static void CallExecuteForLoop() {
+        executeForLoop();
+    }
+
+    private static void sumTwoNumbers(int valueOne, int valueTwo) {
         int number;
 
         for (number = valueOne; number >= 1; number--)
@@ -35,7 +40,11 @@ public class ForLoop {
         System.out.println("That is all");
     }
 
-    public static void sumLoopCounter(int maximum) {
+    public static void CallSumTwoNumber(int valueOne, int valueTwo) {
+        sumTwoNumbers(valueOne, valueTwo);
+    }
+
+    private static void sumLoopCounter(int maximum) {
 
         int number;
 
@@ -49,7 +58,11 @@ public class ForLoop {
         System.out.println("That is all");
     }
 
-    public static void printMultiplicationTable() {
+    public static void CallSumLoopCounter(int maximum) {
+        sumLoopCounter(maximum);
+    }
+
+    private static void printMultiplicationTable() {
         int number;
 
         for (number = 1; number <= 12; number++)
@@ -62,5 +75,9 @@ public class ForLoop {
         }
         
         System.out.println("That is all");
+    }
+
+    public static void CallPrintMultiplicationTable() {
+        printMultiplicationTable();
     }
 }

@@ -4,7 +4,8 @@
 //  description: WhileLoop.java
 //
 public class WhileLoop {
-    public static void executeWhileLoop() {
+
+    private static void executeWhileLoop() {
         int number = 0;
 
         while (number <= 9) 
@@ -15,5 +16,9 @@ public class WhileLoop {
 
         System.out.println(number + " iterations");
         System.out.println("That is all");
+    }
+
+    public static void CallExecuteWhileLoop() {
+        executeWhileLoop();
     }
 }

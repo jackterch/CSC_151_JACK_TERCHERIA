@@ -9,10 +9,10 @@ public class Main {
         WhileLoop whileLoop = new WhileLoop();
         ForLoop forLoop = new ForLoop();
 
-        whileLoop.executeWhileLoop();
-        forLoop.executeForLoop();
-        forLoop.sumTwoNumbers(10, 10);
-        forLoop.sumLoopCounter(10);
-        forLoop.printMultiplicationTable();
+        whileLoop.CallExecuteWhileLoop();
+        forLoop.CallExecuteForLoop();
+        forLoop.CallSumTwoNumber(10, 10);
+        forLoop.CallSumLoopCounter(10);
+        forLoop.CallPrintMultiplicationTable();
     }
 }
