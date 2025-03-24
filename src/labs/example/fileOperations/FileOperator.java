@@ -26,9 +26,10 @@ public class FileOperator {
             if(csv_file.exists() && log_file.exists()){
                 BufferedReader br = new BufferedReader(new FileReader(FILE_NAME));
 
-                if(count > 0){
-                    String[] value = line.split(",");
+                if(count > 0) {
+                    
                 }
+
                 
                 while((line = br.readLine()) != null) {
                     System.out.println(line);
