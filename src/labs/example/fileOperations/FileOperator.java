@@ -20,11 +20,15 @@ public class FileOperator {
 
             BufferedWriter csv_file_writer = new BufferedWriter(new FileWriter(ERROR_LOG_FILE,true));
             String message;
+            String line="";
             int count = 0;
 
             if(csv_file.exists() && log_file.exists()){
                 BufferedReader br = new BufferedReader(new FileReader(FILE_NAME));
-                String line;
+
+                if(count > 0){
+                    String[] value = line.split(",");
+                }
                 
                 while((line = br.readLine()) != null) {
                     System.out.println(line);
