@@ -19,20 +19,27 @@ public class FileOperator {
         try {
 
             BufferedWriter csv_file_writer = new BufferedWriter(new FileWriter(ERROR_LOG_FILE,true));
-            String message;
+            String message="";
             String line="";
             int count = 0;
+            int grade = 0;
+            int avg = 0;
+            
 
             if(csv_file.exists() && log_file.exists()){
                 BufferedReader br = new BufferedReader(new FileReader(FILE_NAME));
 
-                if(count > 0) {
-                    
-                }
 
-                
+
                 while((line = br.readLine()) != null) {
-                    System.out.println(line);
+                    if (count > 0) {
+                        String[] values = line.split(",");
+                        int totalNumOfGrades = values.length - 1;
+                        grade = Integer.parseInt(values[1]) + Integer.parseInt(values[2]) + Integer.parseInt(values[3]);
+                        avg = grade / totalNumOfGrades;
+                        System.out.println(values[0] + " average is: " + avg);
+                    }
+                    count++;
                 }
             
 
@@ -41,7 +48,7 @@ public class FileOperator {
             }
         }
         catch(IOException e) {
-
+            System.err.println("There was error processing the file");
         }
     }
 }
