@@ -3,6 +3,10 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
+// name: jack tercheria
+// date: 4/9/2025
+// description: logger.java
+
 public class Logger {
 
     private static final String FILE_PATH = "C:\\Users\\Jack\\CSC_151_JACK_TERCHERIA\\src\\labs\\example\\fileOperationsWeek13";
