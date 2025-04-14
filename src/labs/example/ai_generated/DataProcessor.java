@@ -74,7 +74,7 @@ public class DataProcessor {
         }
     }
 
-    public Boolean getMainTitle() {
+    public boolean getMainTitle() {
         boolean mainTitle;
         return true;
     }
